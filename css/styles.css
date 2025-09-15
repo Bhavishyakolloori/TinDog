@@ -1,0 +1,154 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrant',sans-serif;
+    font-weight:900;
+    
+    
+}
+p {
+    
+    color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+    color:white; 
+    font-size: 3.5rem ;
+    line-height: 1.5;
+}
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.feature-heading {
+    font-size: 2rem;
+}
+.price-card {
+    font-size: 2.5rem;
+}
+.container-fluid {
+    padding: 7% 15%;
+}
+
+#title {
+     background-color: rgb(245, 245, 66);
+     text-align: left;
+}
+#title.container-fluid {
+    padding: 3% 5% 7% ;  
+}
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: "Montserrant-light", sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+
+/* Download buttons */
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+/* Title image */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    margin-bottom: -35%;
+    z-index: 0;
+    
+} 
+/* Feature section */
+#features {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #f5ec66;
+    margin-bottom: 2rem;
+}
+
+.icon:hover {
+    color: #FFF000;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #f5ec66;
+    color: #fff;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius:100% ;
+    margin: 20px;
+}
+
+#press {
+    background-color: #f5ec66;
+    padding-bottom: 5%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+/* pricing */
+
+#pricing {
+    background-color: #fff;  
+    padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+    background-color: #FFF000;
+}
+
+
+/* Footer */
+#footer {
+   background-color: #fff;
+}
+.footer-icon {
+    padding: 1%;
+}
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        margin-bottom: 0;
+        transform: rotate(0);
+        
+    }
+    
+}

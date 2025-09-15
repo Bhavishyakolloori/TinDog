@@ -1,2 +1,1 @@
-# TinDog
-Frontend (HTML,CSS,BootStrap)
+TinDog Starting Files
