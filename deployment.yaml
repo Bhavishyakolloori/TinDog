@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tindog-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: tindog
+  template:
+    metadata:
+      labels:
+        app: tindog
+    spec:
+      containers:
+      - name: tindog-container
+        image: yourdockerhubusername/tin-dog-static:1.0
+        ports:
+        - containerPort: 80
